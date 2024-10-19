@@ -117,7 +117,7 @@ cd /etc/nginx
 ls
 
 sudo rm nginx.conf
-sudo aws s3 cp s3://3tierproject-avinash/application-code/nginx.conf .
+sudo aws s3 cp s3://3tierproject-lws-99/application-code/nginx.conf .
 
 sudo service nginx restart
 
